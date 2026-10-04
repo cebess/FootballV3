@@ -1,0 +1,89 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "PlatformIO: Test display_board",
+      "type": "shell",
+      "command": "C:\\Users\\chasb\\.platformio\\penv\\Scripts\\platformio.exe",
+      "args": [
+        "test",
+        "-e",
+        "esp32dev",
+        "--filter",
+        "test_display_board"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "PlatformIO: Test display_board manual",
+      "type": "shell",
+      "command": "C:\\Users\\chasb\\.platformio\\penv\\Scripts\\platformio.exe",
+      "args": [
+        "test",
+        "-e",
+        "esp32dev_manual_display",
+        "--filter",
+        "test_display_board"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "PlatformIO: Test menu_system",
+      "type": "shell",
+      "command": "C:\\Users\\chasb\\.platformio\\penv\\Scripts\\platformio.exe",
+      "args": [
+        "test",
+        "-e",
+        "esp32dev",
+        "--filter",
+        "test_menu_system"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "PlatformIO: Test rotary_encoder",
+      "type": "shell",
+      "command": "C:\\Users\\chasb\\.platformio\\penv\\Scripts\\platformio.exe",
+      "args": [
+        "test",
+        "-e",
+        "esp32dev",
+        "--filter",
+        "test_rotary_encoder"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "PlatformIO: Test rotary_encoder manual",
+      "type": "shell",
+      "command": "C:\\Users\\chasb\\.platformio\\penv\\Scripts\\platformio.exe",
+      "args": [
+        "test",
+        "-e",
+        "esp32dev_manual_tests",
+        "--filter",
+        "test_rotary_encoder"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "PlatformIO: Test menu_system manual",
+      "type": "shell",
+      "command": "C:\\Users\\chasb\\.platformio\\penv\\Scripts\\platformio.exe",
+      "args": [
+        "test",
+        "-e",
+        "esp32dev_manual_tests",
+        "--filter",
+        "test_menu_system"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

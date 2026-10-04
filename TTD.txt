@@ -1,0 +1,4 @@
+implement penalties
+safety??
+? make sure we handle a punt into the end zone (place the ball on the returning teams 25-yard line)
+sometimes there is a gain of zero, it should say no gain instead.

@@ -1,0 +1,18 @@
+The board is a 2.4 inch TFT LCD RGB Display with EC11 Rotary Encoder Combined Module
+with an SPI Interface
+and an ST7789 display with 320x240 resolution color display.
+EC11 interface A, B, PUSH
+
+The following pins printed on the PCB:
+Gnd - ground
+VCC - 3v3 or 5V
+SCL - SPI Clock (shared across multiple displays)
+SDA - SPI Data (shared across multiple displays)
+RES - Reset (pull low to reset the display controller)
+DC - Data/command select (LOW  = command, HIGH = pixel data)
+CS - Chip select (Only the display with CS low listens)
+BLK - Backlight (can be connected to 3v3 if always on, If connected to GPIO: brightness adjustable.)
+A - Rotary encoder channel A
+B - Rotary encolder channel B
+PUSH - Encoder knob push button
+KO - dedicated push button
