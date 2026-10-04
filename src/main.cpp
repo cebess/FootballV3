@@ -922,7 +922,7 @@ void setup() {
   if (!soundBoard.begin()) {
     Serial.println("SoundBoard initialization failed.");
   }
-  soundBoard.playSound("crowd_cheer");
+  soundBoard.playSound("crowd_cheer"); // Play crowd cheer sound at the start of the game
   kickoff(teamWithTheBall);
   // start the timer
   gameTimer.start(4*5*60 * 1000); //5 minutes a quarter, 4 quarters in a game, converted to milliseconds
